@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Production me live backend URL
 const baseURL = import.meta.env.PROD
-  ? "https://ai-expense-tracker-ndhf.onrender.com//api"
+  ? "https://ai-expense-tracker-ndhf.onrender.com/api"
   : "http://localhost:5000/api";
 
 const API = axios.create({
