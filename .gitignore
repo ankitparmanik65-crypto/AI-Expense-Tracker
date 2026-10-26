@@ -1,0 +1,112 @@
+# ============================================
+# Dependencies
+# ============================================
+node_modules/
+*/node_modules/
+**/node_modules/
+jspm_packages/
+
+# ============================================
+# Environment Variables (CRITICAL — never commit)
+# ============================================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+*.env
+!*.env.example
+
+# ============================================
+# Build Outputs
+# ============================================
+dist/
+build/
+out/
+.next/
+.nuxt/
+.cache/
+.parcel-cache/
+.vite/
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================
+# Testing / Coverage
+# ============================================
+coverage/
+.nyc_output/
+*.lcov
+
+# ============================================
+# Database / Backups
+# ============================================
+backups/
+*.sqlite
+*.db
+*.sql
+dump/
+
+# ============================================
+# Uploads (local files)
+# ============================================
+uploads/
+tmp/
+temp/
+
+# ============================================
+# OS Files
+# ============================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ============================================
+# Editor / IDE
+# ============================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ============================================
+# Node / NPM
+# ============================================
+.npm/
+.npmrc
+.yarn/
+.yarnrc
+.pnpm-store/
+.pnpm-debug.log
+node_modules/.cache/
+
+# ============================================
+# Misc
+# ============================================
+.metadata/
+*.tgz
+*.tar.gz
+.eslintcache
+.stylelintcache
